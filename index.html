@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="it" data-radius="soft"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Roma antica: appunti di storia romana per l'esame</title><meta name="description" content="Tredici pagine collegate per studiare la storia di Roma all'università: timeline, schemi, schede con fonti e dibattito storiografico, indice generale.">
+<meta property="og:title" content="Roma antica"><meta property="og:description" content="Appunti di storia romana in tredici pagine collegate."><meta property="og:type" content="website">
+<meta name="theme-color" content="#f3f1ec"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/taste.css"><style>:root{--nav:72px;--padt:120px;--padb:72px;--gut:80px;--btn-h:44px}
+@media(max-width:1023px){:root{--gut:48px}}
+@media(max-width:639px){:root{--nav:56px;--padt:96px;--padb:48px;--gut:24px}}
+html{scroll-padding-top:0}
+main{max-width:none!important;padding:0!important}
+.nav__words a{border:0!important;padding:6px 0!important;font:500 15px/1 var(--font-text)!important;transform:none!important}
+.wrap{max-width:1280px;margin:0 auto;padding:0 var(--gut);width:100%}
+.muted{color:var(--muted)}
+.skip-link{position:absolute;left:-999px;top:14px;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:var(--r-btn);z-index:20}
+.skip-link:focus{left:var(--gut)}
+header.nav{position:fixed;top:0;left:0;right:0;height:var(--nav);background:var(--bg);border-bottom:1px solid var(--line);z-index:10}
+header.nav .wrap{height:100%;display:flex;align-items:center;gap:32px}
+.logo{font:400 20px/1 var(--font-display);letter-spacing:-.02em;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:10px;margin-right:auto}
+.mark{width:18px;height:18px;border:2px solid var(--ink);border-radius:50%;border-bottom-color:transparent;transform:rotate(-45deg)}
+.nav__words{display:flex;gap:32px;position:static;padding:0;border:0;background:none;overflow:visible}
+.nav__words a,.dcol a{font:500 15px/1 var(--font-text);color:var(--ink);text-decoration:none;position:relative;padding:6px 0;white-space:nowrap;border:0;border-radius:0;background:none}
+.nav__words a::after,.dcol a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform var(--m-in) var(--ease)}
+.nav__words a:hover::after,.dcol a:hover::after,.nav__words a:focus-visible::after,.dcol a:focus-visible::after{transform:scaleX(1)}
+@media(max-width:1023px){.nav__words{display:none}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:var(--btn-h);padding:0 24px;border-radius:var(--r-btn);font:500 16px/1 var(--font-text);text-decoration:none;border:1px solid var(--ink);white-space:nowrap;transition:transform var(--m-out) var(--ease),background-color var(--m-out) var(--ease),border-color var(--m-out) var(--ease)}
+.btn--primary{background:var(--action);border-color:var(--action);color:var(--action-ink)}
+.btn--secondary{background:transparent;color:var(--ink);border-color:var(--line2)}
+.m-arrow{width:16px;height:16px;transition:transform var(--m-out) var(--ease)}
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{transform:translateY(-1px);transition-duration:var(--m-in)}
+  .btn--primary:hover{background:color-mix(in srgb,var(--action) 86%,var(--ink));border-color:color-mix(in srgb,var(--action) 86%,var(--ink))}
+  .btn--secondary:hover{background:color-mix(in srgb,var(--ink) 6%,transparent);border-color:var(--ink)}
+  .btn:hover .m-arrow{transform:translateX(3px)}
+  a.card:hover{transform:translateY(-2px);border-color:var(--line2);box-shadow:0 8px 24px color-mix(in srgb,var(--ink) 8%,transparent);transition-duration:180ms}
+  .band:hover,.drow:hover .dt{text-decoration:underline;text-underline-offset:3px}
+}
+.btn:active{transform:translateY(1px) scale(.985);transition-duration:var(--m-press)}
+.btn-row{display:flex;flex-wrap:wrap;align-items:center;gap:24px;margin-top:32px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+
+main>section,footer.closing{padding:var(--padt) 0 var(--padb)}
+@media(min-width:1024px){main>section,footer.closing{min-height:100svh}}
+.section.alt{background:var(--surface)}
+h2{font-size:clamp(28px,2.6vw,40px)!important;margin:0 0 48px!important;max-width:26ch;letter-spacing:-.022em}
+@media(max-width:639px){h2{margin-bottom:32px!important}}
+
+.hero{padding:calc(var(--nav) + 48px) 0 64px!important;min-height:100svh}
+.hero-text{grid-column:1/7;align-self:start}
+.hero h1{font-size:clamp(36px,4.9vw,68px);letter-spacing:-.026em;line-height:1.04;margin:0 0 24px;max-width:13ch}
+.hero__lead{font-size:clamp(17px,1.4vw,20px);line-height:1.55;margin:0;max-width:52ch}
+.facts{color:var(--muted);font-size:14px;margin:32px 0 0}
+.frame{grid-column:7/13;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:24px;align-self:start}
+.bands{display:flex;gap:2px;margin-bottom:16px}
+.band{height:40px;display:flex;align-items:center;padding:0 8px;font-size:13px;font-weight:500;text-decoration:none;white-space:nowrap;overflow:hidden;border-radius:4px}
+.band:first-child{border-radius:var(--r-sm) 4px 4px var(--r-sm)}.band:last-child{border-radius:4px var(--r-sm) var(--r-sm) 4px}
+.band.arm{background:var(--armbg);color:var(--arm)}.band.org{background:var(--orgbg);color:var(--org)}.band.tat{background:var(--tatbg);color:var(--tat)}.band.war{background:var(--warbg);color:var(--war)}
+.drow{display:grid;grid-template-columns:104px 1fr;gap:0 16px;padding:9px 0 0;color:var(--ink);text-decoration:none;font-size:15px;line-height:1.35}
+.dd{color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px}
+.dp{grid-column:1/-1;height:9px;position:relative;border-bottom:1px solid var(--line)}
+.drow:last-child .dp{border-bottom:0}
+.dp i{position:absolute;bottom:-3px;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-left:-3px}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1{animation:t-enter 800ms var(--ease-enter) both}
+  .hero__lead{animation:t-enter 800ms var(--ease-enter) 120ms both}
+  .hero .btn-row,.facts{animation:t-enter 800ms var(--ease-enter) 220ms both}
+  .frame{animation:t-settle 1000ms var(--ease-enter) 200ms both}
+}
+@keyframes t-settle{from{opacity:0;transform:translateY(16px) scale(.985)}to{opacity:1;transform:none}}
+@media(max-width:1023px){.hero-text,.frame{grid-column:1/-1}.frame{margin-top:24px}}
+@media(max-width:639px){.hero{padding-bottom:24px!important}.frame{padding:16px}.band{font-size:0;padding:0}.btn-row .btn{width:100%}.drow{grid-template-columns:96px 1fr}}
+
+.grp+.grp{margin-top:32px}
+.label{font-size:13px;font-weight:500;color:var(--muted);margin:0 0 12px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{display:flex;flex-direction:column;height:176px;padding:24px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);color:var(--ink);text-decoration:none;transition:transform var(--m-out) var(--ease),border-color var(--m-out) var(--ease),box-shadow var(--m-out) var(--ease)}
+.card h3{font-size:22px;margin:0 0 8px}
+.card p{font-size:16px;line-height:1.5;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{margin-top:auto;font-size:13px;font-weight:500;color:var(--muted)}
+@media(max-width:1023px){.cards{grid-template-columns:1fr 1fr}}
+@media(max-width:639px){.cards{grid-template-columns:1fr;gap:12px}.card{height:auto;min-height:144px;padding:20px}}
+.tools{grid-column:1/5;display:flex;flex-direction:column;gap:24px}
+.prows{grid-column:6/13}
+.prow{padding:0 0 12px;margin-bottom:12px;border-bottom:1px solid var(--line)}
+.prow:last-child{border-bottom:0;margin-bottom:0}
+.prow h3{font-size:22px;margin:0 0 8px}
+.prow p{margin:0;display:flex;flex-wrap:wrap;gap:2px 20px;font-size:16px;line-height:1.6}
+@media(max-width:1023px){.tools,.prows{grid-column:1/-1}.tools{flex-direction:row}.tools .card{flex:1}}
+@media(max-width:639px){.tools{flex-direction:column;gap:12px}}
+
+footer.closing{background:var(--ink);color:var(--bg);text-align:left;font-size:inherit}
+footer.closing .wrap{display:flex;flex-direction:column;min-height:calc(100svh - var(--padt) - var(--padb))}
+.close{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:96px}
+.close h2{color:var(--bg);font-size:clamp(32px,4vw,56px)!important;margin:0!important;max-width:16ch}
+footer.closing .btn--primary{background:var(--bg);border-color:var(--bg);color:var(--ink)}
+.dir{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin-top:auto}
+.dcol h3{font:500 13px/1.4 var(--font-text)!important;letter-spacing:0;color:color-mix(in srgb,var(--bg) 65%,var(--ink));margin:0 0 12px}
+.dcol a{display:table;color:var(--bg);margin-bottom:6px;white-space:normal;line-height:1.3}
+.legal{font-size:14px;color:color-mix(in srgb,var(--bg) 65%,var(--ink));margin:48px 0 0;max-width:90ch}
+@media(max-width:1023px){.dir{grid-template-columns:repeat(3,1fr)}.close{margin-bottom:64px}}
+@media(max-width:639px){.dir{grid-template-columns:1fr 1fr}}
+@media (prefers-color-scheme:dark){footer.closing{background:#141a22;color:#f3f1ec}.close h2,.dcol a{color:#f3f1ec}footer.closing .btn--primary{background:#f3f1ec;border-color:#f3f1ec;color:#1d2530}}
+</style></head><body>
+<header class="nav"><div class="wrap"><a class="skip-link" href="#top">Vai al contenuto</a><a class="logo" href="index.html"><span class="mark"></span>Roma antica</a><nav class="nav__words" aria-label="Sezioni"><a href="#storia">Storia</a><a href="#societa">Società</a><a href="#percorsi">Percorsi</a><a href="#pagine">Pagine</a></nav><a class="btn btn--secondary" href="indice.html">Indice generale</a></div></header>
+<main id="top">
+<section class="hero"><div class="wrap grid"><div class="hero-text"><h1>Tredici pagine per studiare la storia di Roma.</h1>
+<p class="hero__lead">Dalle origini a Giustiniano: il racconto, le istituzioni, il diritto, l'esercito, l'economia, la società, la religione, gli scrittori, la città. Ogni pagina ha timeline, schemi, schede con le fonti e il dibattito fra gli storici.</p>
+<div class="btn-row"><a class="btn btn--primary" href="repubblica.html">Comincia dalla Repubblica<svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a><a class="link" href="#percorsi">Guarda i percorsi d'esame</a></div>
+<p class="facts">13 pagine · 367 schede · 235 eventi in timeline · 1257 voci nell'indice</p></div>
+<div class="frame" aria-label="Tredici secoli in dieci date"><div class="bands"><a class="band arm" href="repubblica.html" style="width:18.513%">Età regia</a><a class="band org" href="repubblica.html" style="width:36.571%">Repubblica</a><a class="band tat" href="impero.html" style="width:23.596%">Principato</a><a class="band war" href="impero.html" style="width:21.320%">Tardo impero</a></div><div class="dates"><a class="drow" href="personaggi.html#romolo"><span class="dd">753 a.C.</span><span class="dt">La fondazione, secondo la tradizione</span><span class="dp"><i style="left:0.00%"></i></span></a><a class="drow" href="repubblica.html"><span class="dd">509 a.C.</span><span class="dt">Cacciata dei re: nasce la Repubblica</span><span class="dp"><i style="left:18.51%"></i></span></a><a class="drow" href="esercito.html"><span class="dd">264–146 a.C.</span><span class="dt">Le guerre contro Cartagine</span><span class="dp"><i style="left:37.10%"></i></span></a><a class="drow" href="personaggi.html#tgracco"><span class="dd">133 a.C.</span><span class="dt">Tiberio Gracco: comincia la crisi</span><span class="dp"><i style="left:47.04%"></i></span></a><a class="drow" href="personaggi.html#cesare"><span class="dd">44 a.C.</span><span class="dt">Le Idi di marzo</span><span class="dp"><i style="left:53.79%"></i></span></a><a class="drow" href="personaggi.html#augusto"><span class="dd">27 a.C.</span><span class="dt">Augusto: il Principato</span><span class="dp"><i style="left:55.08%"></i></span></a><a class="drow" href="diritto.html"><span class="dd">212 d.C.</span><span class="dt">Cittadinanza a tutti i liberi</span><span class="dp"><i style="left:73.22%"></i></span></a><a class="drow" href="personaggi.html#diocleziano"><span class="dd">284 d.C.</span><span class="dt">Diocleziano rifonda lo Stato</span><span class="dp"><i style="left:78.68%"></i></span></a><a class="drow" href="personaggi.html#costantino"><span class="dd">313 d.C.</span><span class="dt">Libertà di culto ai cristiani</span><span class="dp"><i style="left:80.88%"></i></span></a><a class="drow" href="personaggi.html#odoacre"><span class="dd">476 d.C.</span><span class="dt">Odoacre depone Romolo Augustolo</span><span class="dp"><i style="left:93.25%"></i></span></a></div></div></div></section>
+<section class="section" id="storia"><div class="wrap"><h2>La storia e lo Stato. <span class="muted">Che cosa accadde, e con quali regole.</span></h2><div class="grp"><p class="label">La storia</p><div class="cards"><a class="card" href="repubblica.html"><h3>L'età repubblicana</h3><p>Dalla cacciata dei re ad Augusto: come una città del Lazio conquistò il Mediterraneo, e come la conquista travolse le sue istituzioni.</p><span class="meta">22 schede · 23 eventi</span></a><a class="card" href="impero.html"><h3>L'età imperiale</h3><p>Da Augusto a Giustiniano: come funzionava il governo di uno solo, come resse alla crisi del III secolo e si fece cristiano, perché finì in Occidente e durò in Oriente.</p><span class="meta">17 schede · 18 eventi</span></a><a class="card" href="personaggi.html"><h3>Dizionario dei personaggi</h3><p>Sessantasei protagonisti della storia di Roma, da Romolo a Giustiniano. Per ciascuno: i fatti essenziali, le fonti, un ritratto e il giudizio degli storici. Si possono filtrare per ruolo o cercare per nome.</p><span class="meta">66 schede · 12 eventi</span></a></div></div><div class="grp"><p class="label">Stato, diritto, guerra</p><div class="cards"><a class="card" href="istituzioni.html"><h3>Istituzioni e amministrazione</h3><p>Come era governata Roma, dai re al tardo impero: magistrati, Senato, assemblee, principe, province, città. Chi decideva, con quali regole, e con quali uomini.</p><span class="meta">30 schede · 22 eventi</span></a><a class="card" href="diritto.html"><h3>Il diritto romano</h3><p>Come è nato e come funzionava il diritto di Roma: chi lo creava, a chi riconosceva diritti, come si faceva giustizia, come si possedeva e si contrattava. Con uno sguardo da storici, non da giuristi.</p><span class="meta">25 schede · 15 eventi</span></a><a class="card" href="esercito.html"><h3>Esercito e guerre</h3><p>Chi combatteva per Roma, come era organizzato, contro chi, con quali armi e quali idee. Sette secoli di guerre, otto battaglie da conoscere, e le domande che gli storici militari si pongono oggi.</p><span class="meta">29 schede · 23 eventi</span></a></div></div></div></section>
+<section class="section alt" id="societa"><div class="wrap"><h2>La società e la cultura. <span class="muted">Come si viveva, in che cosa si credeva, che cosa si scriveva.</span></h2><div class="grp"><p class="label">Economia e società</p><div class="cards"><a class="card" href="economia.html"><h3>Economia, fisco e finanza</h3><p>Di che cosa viveva il mondo romano: la terra e il lavoro, le navi e i mercati, le imposte e i soldati da pagare, la moneta e i debiti. Con il dibattito su che tipo di economia fosse.</p><span class="meta">24 schede · 19 eventi</span></a><a class="card" href="societa.html"><h3>Società e vita quotidiana</h3><p>Famiglie, ceti, schiavi e liberti, lavoro, case, cibo, spettacoli: come era fatta la società romana e come si viveva, fra regole giuridiche e realtà quotidiana.</p><span class="meta">26 schede · 16 eventi</span></a><a class="card" href="province.html"><h3>Roma e le province</h3><p>Come Roma conquistò, governò e integrò i territori dalla Britannia all&#x27;Eufrate: governatori e tributi, città e cittadinanza, rivolte, e il dibattito sulla «romanizzazione».</p><span class="meta">29 schede · 17 eventi</span></a></div></div><div class="grp"><p class="label">Cultura, religione, città</p><div class="cards"><a class="card" href="religione.html"><h3>La religione</h3><p>Come i Romani trattavano con i loro dèi, chi lo faceva a nome di tutti, che posto avevano i culti venuti da fuori, e come una religione di tipo diverso finì per sostituire tutte le altre.</p><span class="meta">25 schede · 21 eventi</span></a><a class="card" href="letteratura.html"><h3>Letteratura e storia</h3><p>Gli scrittori latini nel loro tempo: chi erano, per chi scrivevano, che rapporto avevano con il potere, e quanto possiamo fidarci di loro come fonti storiche.</p><span class="meta">28 schede · 15 eventi</span></a><a class="card" href="topografia.html"><h3>Topografia di Roma</h3><p>La forma della città e la sua storia: i luoghi del potere e del sacro, gli edifici per gli spettacoli, la macchina che faceva vivere un milione di persone, e come tutto questo è arrivato fino a noi.</p><span class="meta">24 schede · 17 eventi</span></a></div></div></div></section>
+<section class="section" id="percorsi"><div class="wrap"><h2>Strumenti e percorsi. <span class="muted">Cinque temi d'esame che attraversano più pagine.</span></h2>
+<div class="grid"><div class="tools"><a class="card" href="fonti.html"><h3>Fonti e metodo</h3><p>Da dove viene ciò che sappiamo di Roma, e quanto è sicuro: storici antichi, iscrizioni, papiri, monete, scavi, scienze. Come si interroga una fonte e come è cambiato il modo di fare storia antica.</p><span class="meta">22 schede · 17 eventi</span></a><a class="card" href="indice.html"><h3>Indice generale</h3><p>Tutte le parole chiave, i personaggi e gli eventi del sito, con le pagine in cui compaiono.</p><span class="meta">1257 voci · 317 collegano più pagine</span></a></div><div class="prows"><div class="prow"><h3>La crisi della Repubblica</h3><p><a class="link" href="repubblica.html">Il racconto</a><a class="link" href="istituzioni.html">Le istituzioni</a><a class="link" href="esercito.html">Gli eserciti personali</a><a class="link" href="economia.html">La questione agraria</a><a class="link" href="personaggi.html#crisi">I protagonisti</a><a class="link" href="letteratura.html">Sallustio, Cicerone, Cesare</a></p></div><div class="prow"><h3>Augusto e la nascita del Principato</h3><p><a class="link" href="impero.html">Il racconto</a><a class="link" href="istituzioni.html">I poteri del principe</a><a class="link" href="religione.html">La restaurazione religiosa</a><a class="link" href="topografia.html">Una città di marmo</a><a class="link" href="letteratura.html">Virgilio, Orazio, Livio</a><a class="link" href="personaggi.html#augusto">Augusto</a></p></div><div class="prow"><h3>Integrare un impero</h3><p><a class="link" href="province.html">Province e romanizzazione</a><a class="link" href="diritto.html">Cittadinanza e diritto</a><a class="link" href="societa.html">Ceti e mobilità</a><a class="link" href="economia.html">Tasse e commerci</a><a class="link" href="esercito.html">Le frontiere</a></p></div><div class="prow"><h3>Dal paganesimo al cristianesimo</h3><p><a class="link" href="religione.html">Culti e Chiesa</a><a class="link" href="personaggi.html#costantino">Costantino</a><a class="link" href="personaggi.html#ambrogio">Ambrogio</a><a class="link" href="topografia.html">La Roma cristiana</a><a class="link" href="letteratura.html">Gli autori cristiani</a></p></div><div class="prow"><h3>La fine dell'Impero d'Occidente</h3><p><a class="link" href="impero.html">Il racconto</a><a class="link" href="esercito.html">Barbari ed esercito</a><a class="link" href="province.html">Le province perdute</a><a class="link" href="economia.html">Fisco e crisi</a><a class="link" href="fonti.html">Clima ed epidemie</a><a class="link" href="personaggi.html#tardo">I protagonisti</a></p></div></div></div></div></section>
+</main>
+<footer class="closing" id="pagine"><div class="wrap"><div class="close"><h2>Una pagina alla volta, poi i collegamenti.</h2><a class="btn btn--primary" href="indice.html">Apri l'indice generale<svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a></div>
+<div class="dir"><div class="dcol"><h3>La storia</h3><a href="repubblica.html">L'età repubblicana</a><a href="impero.html">L'età imperiale</a><a href="personaggi.html">Dizionario dei personaggi</a></div><div class="dcol"><h3>Stato, diritto, guerra</h3><a href="istituzioni.html">Istituzioni e amministrazione</a><a href="diritto.html">Il diritto romano</a><a href="esercito.html">Esercito e guerre</a></div><div class="dcol"><h3>Economia e società</h3><a href="economia.html">Economia, fisco e finanza</a><a href="societa.html">Società e vita quotidiana</a><a href="province.html">Roma e le province</a></div><div class="dcol"><h3>Cultura, religione, città</h3><a href="religione.html">La religione</a><a href="letteratura.html">Letteratura e storia</a><a href="topografia.html">Topografia di Roma</a></div><div class="dcol"><h3>Strumenti</h3><a href="fonti.html">Fonti e metodo</a><a href="indice.html">Indice generale</a></div></div>
+<p class="legal">Roma antica · appunti di storia romana · 2026. Le bibliografie sono indicative: prima di citarle in un lavoro scritto verifica titolo, edizione e anno nell'OPAC SBN o nel catalogo della biblioteca d'ateneo.</p></div></footer>
+</body></html>
