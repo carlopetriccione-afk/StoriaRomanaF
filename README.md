@@ -11,6 +11,7 @@ Sito di studio in tredici pagine collegate, più la pagina iniziale e l'indice g
 - `economia.html`, `societa.html`, `province.html` — economia e società
 - `religione.html`, `letteratura.html`, `topografia.html` — cultura, religione, città
 - `fonti.html` — fonti e metodo
+- `esame.html` — preparazione all'esame: scritto e orale
 - `assets/` — foglio di stile comune (`taste.css`), caratteri e icona
 
 Il sito è statico: non richiede server né collegamenti esterni. I caratteri (Source Serif 4 e Libre Franklin, licenza SIL Open Font License) sono inclusi nella cartella `assets/fonts`.
